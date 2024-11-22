@@ -1,0 +1,44 @@
+body {
+    background-color: #f2f2f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .filters button {
+    margin-right: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #6c757d;
+    background-color: #f8f9fa;
+  }
+  
+  .priority-high {
+    background-color: #ffdddd;
+    border-left: 5px solid #dc3545;
+  }
+  
+  .priority-medium {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+  }
+  
+  .priority-low {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+  }
+  
+  #taskList li {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
